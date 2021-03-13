@@ -1,4 +1,4 @@
-# nym installer
+# nym mixnode installer
 
 do it one-line
 
