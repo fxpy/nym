@@ -10,6 +10,7 @@ echo 'Your node location: ' $NYM_LOCATION
 echo 'export NYM_NODENAME='$NYM_NODENAME >> $HOME/.bashrc
 echo 'export NYM_LOCATION='$NYM_LOCATION >> $HOME/.bashrc
 source $HOME/.bashrc
+sudo apt update && sudo apt upgrade -y
 sudo apt install make clang pkg-config libssl-dev build-essential git curl -y < "/dev/null"
 sudo curl https://sh.rustup.rs -sSf | sh -s -- -y
 source $HOME/.cargo/env
