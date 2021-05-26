@@ -8,3 +8,8 @@ wget -O install_nym.sh https://raw.githubusercontent.com/fxpy/nym/main/install_n
 # nym mixnode updater
 
 wget -O nym-update.sh https://raw.githubusercontent.com/fxpy/nym/main/nym-update.sh && chmod +x nym-update.sh && ./nym-update.sh
+
+after that run
+journalctl -u nym-mixnode -f -o cat
+
+go to https://web-wallet-finney.nymtech.net/ login with your mnemonic, unbond node, then bond again with new version 0.10.1
