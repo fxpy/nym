@@ -1,6 +1,6 @@
 # nym mixnode installer
 
-(OOD 0.9.2)
+(OOD 0.9.2) - DO NOT USE IT FOR NEW INSTALLATIONS
 
 do it one-line
 
