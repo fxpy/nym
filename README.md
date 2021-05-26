@@ -2,16 +2,17 @@
 
 do it one-line
 
-wget -O install_nym.sh https://raw.githubusercontent.com/fxpy/nym/main/install_nym.sh && chmod +x install_nym.sh && ./install_nym.sh 
+```wget -O install_nym.sh https://raw.githubusercontent.com/fxpy/nym/main/install_nym.sh && chmod +x install_nym.sh && ./install_nym.sh```
 
 
 # nym mixnode updater
 
-!ATTENTION!
-this updater works ONLY for root user (if you installed nym-mixnode as root) and added it to systemd (as described in Nym docs)
+### !ATTENTION!
+
+this updater works ONLY for root user (if you installed nym-mixnode as root) and added it to systemd (as described in Nym docs).
 So if you follow the docs and install 0.10.0 - this updater will help you!
 
-wget -O nym-update.sh https://raw.githubusercontent.com/fxpy/nym/main/nym-update.sh && chmod +x nym-update.sh && ./nym-update.sh
+```wget -O nym-update.sh https://raw.githubusercontent.com/fxpy/nym/main/nym-update.sh && chmod +x nym-update.sh && ./nym-update.sh```
 
 after that run
 
