@@ -14,8 +14,9 @@ So if you follow the docs and install 0.10.0 - this updater will help you!
 
 ```wget -O nym-update.sh https://raw.githubusercontent.com/fxpy/nym/main/nym-update.sh && chmod +x nym-update.sh && ./nym-update.sh```
 
-after that run
+after that run for monitoring state
 
-journalctl -u nym-mixnode -f -o cat
+```journalctl -u nym-mixnode -f -o cat```
 
-go to https://web-wallet-finney.nymtech.net/ login with your mnemonic, unbond node, then bond again with new version 0.10.1
+then go to https://web-wallet-finney.nymtech.net/ 
+login with your mnemonic, unbond node, then bond again with new version 0.10.1
