@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#thanks for guys from nodes.guru for that sed magic!
 node_id=$(systemctl status nym-mixnode | grep '\-\-id ' | sed 's#.*--id \(\)#\1#' | sed 's/\s.*$//')
 
 sudo systemctl stop nym-mixnode
