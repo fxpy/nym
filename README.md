@@ -16,7 +16,7 @@ wget -O install_nym.sh https://raw.githubusercontent.com/fxpy/nym/main/install_n
 ## !ATTENTION!
 
 this updater works ONLY for root user (if you installed nym-mixnode as root) and added it to systemd (as described in Nym docs).
-So if you follow the docs and install 0.10.0 - this updater will help you!
+So if you follow the docs and install 0.10.1 - this updater will help you!
 
 - working paths:
 
