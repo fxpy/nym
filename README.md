@@ -1,14 +1,3 @@
-# nym mixnode installer
-
-(OOD 0.9.2) - DO NOT USE IT FOR NEW INSTALLATIONS
-
-do it one-line
-
-```
-wget -O install_nym.sh https://raw.githubusercontent.com/fxpy/nym/main/install_nym.sh && chmod +x install_nym.sh && ./install_nym.sh
-```
-
-
 # nym mixnode updater
 
 0.10.1 -> 0.11.0
@@ -27,6 +16,13 @@ So if you follow the docs and install 0.10.1 - this updater will help you!
 ### for update run
 ```
 wget -O nym-update.sh https://raw.githubusercontent.com/fxpy/nym/main/nym-update.sh && chmod +x nym-update.sh && ./nym-update.sh
+```
+
+## Section for those who installed via nodes.guru script:
+### for update run
+
+```
+wget -O nym-update.sh https://raw.githubusercontent.com/fxpy/nym/main/nym-update-for-nodesguru.sh && chmod +x nym-update.sh && ./nym-update.sh
 ```
 
 after that run for monitoring
