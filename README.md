@@ -11,7 +11,7 @@ wget -O install_nym.sh https://raw.githubusercontent.com/fxpy/nym/main/install_n
 
 # nym mixnode updater
 
-0.10.0 -> 0.10.1
+0.10.1 -> 0.11.0
 
 ## !ATTENTION!
 
@@ -35,5 +35,15 @@ after that run for monitoring
 journalctl -u nym-mixnode -f -o cat
 ```
 
-then go to https://web-wallet-finney.nymtech.net/ 
-login with your mnemonic, unbond node, then bond again with new version 0.10.1
+then go to https://testnet-milhon-wallet.nymtech.net/
+create new PUNK wallet, save mnemonic, and give the Nym mixnode command with your attributes (be sure to change all 3 fields with your own):
+
+```
+./nym-mixnode sign --id your-node-id --text "@your_telegram_username your-punk-wallet-address"
+```
+
+then go to bot https://t.me/nympunkbot and give it output of previous command like that:
+
+```
+/transfer 7xdQ1USuNEZN4WbbiZFPfd59HTqFeNkxpu4zWrYGtmTz 4Yo4ZkUBxREJapzf7AxLPodQXic4cfbNziJMLxsftTQsVdm5XKUg8be8ErXhnHunsnmz8EZvuGLwSD98PifCad1f
+```
