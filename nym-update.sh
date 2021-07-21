@@ -5,10 +5,10 @@ node_id=$(systemctl status nym-mixnode | grep '\-\-id ' | sed 's#.*--id \(\)#\1#
 
 sudo systemctl stop nym-mixnode
 
-wget -O nym-mixnode https://github.com/nymtech/nym/releases/download/v0.10.1/nym-mixnode_linux_x86_64
+wget -O nym-mixnode https://github.com/nymtech/nym/releases/download/v0.11.0/nym-mixnode_linux_x86_64
 chmod +x nym-mixnode
 
-sed -i 's/(0.10.0)/(0.10.1)/g' /etc/systemd/system/nym-mixnode.service
+sed -i 's/(0.10.1)/(0.11.0)/g' /etc/systemd/system/nym-mixnode.service
 
 sudo mv nym-mixnode /root/nym/target/release/
 cd /root/nym/target/release/
